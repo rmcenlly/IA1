@@ -18,5 +18,3 @@
 %end
   </tbody>
 </table>
-
-<a class="btn btn-primary" href="/events/track/submit" role="button">Submit a Result</a>

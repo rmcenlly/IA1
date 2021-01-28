@@ -145,7 +145,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item {{'active' if page == 'Houses' else '' }}">
+      <li class="nav-item mr-3 {{'active' if page == 'Houses' else '' }}">
         <a class="nav-link" href="/houses">Houses</a>
       </li>
       <li>

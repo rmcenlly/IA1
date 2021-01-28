@@ -1,9 +1,19 @@
 % rebase('base.tpl', title='ASAS Atheltics', page='Home')
 
-<p class="mt-5">Welcome to Parkrun, it's great to have you here. We strive to make exercise a little bit easier for everyone by offering new opportunities.
+<p class="mt-5">Welcome to the ASAS Athletics management base. There are multiple functions to this site, served by each header in the navigation bar.
 <br>
 <br>
-As you can see, we serve many different functions on this site, such as being able to view clubs and events, and being able to view and sign up as a runner or create a team.
+The Students page shows a list of all senior school students, with their full name, gender, house, and age.
 <br>
 <br>
-To learn more about us, feel free to visit our 'About' page, else, feel free to peruse the site, and we hope to see you running amongst the trees soon.</p>
+The events page allows you to choose to see either track or field events, and then displays a list of whichever you have chosen.
+<br>
+<br>
+The entries page shows a list of all students who have been entered in events, also showing the event they entered in, their gender, house, and age, along with the ability to remove an entry.
+<br>
+<br>
+The houses page has a range of functions which are:
+<ul>
+    <li>Viewing all students in a house sorted by age</li>
+    <li>Entering a student into an event sorted by age and gender</li>
+</p>
