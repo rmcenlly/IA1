@@ -4,8 +4,8 @@
 
 <p>Here is a list of all the existing track events. Each event is available for Males and Females separately, in separate groups of ages 14-18.</p>
 
-<table class="table table-hover table-bordered table-sm mt-5 table-dark">
-  <thead class="thead-light">
+<table class="table table-hover table-bordered table-sm mt-5 ">
+  <thead>
     <tr>
       <th scope="col">Event</th>
     </tr>

@@ -10,35 +10,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>{{title or 'No title'}}</title>
     <style>
+      body {
+        background-color: #1a1a1a;
+        color: #FFFFFF;
+      }
       .btn{
         color:#FFFFFF;
-        background-color:#008F4C;
+        background-color:#349cd9;
         border-color: #FFFFFF;
       }
       .btn:hover{
         color:#FFFFFF;
-        background-color:#008F4C;
-        text-decoration:underline;
+        background-color:#a1c6e1;
         border-color:#FFFFFF;
       }
-      .btn-danger {
-        background-color: #ad0000;   
+      .btn-BG{
+        color:#FFFFFF;
+        background-color:#008F4C;
+        border-color: #FFFFFF;
+        border-radius:5px;
       }
-      .btn-danger:hover {
-        background-color: #000000;  
-        color: #ad0000; 
+      .btn-BG:hover{
+        color:#FFFFFF;
+        background-color:#008F4C;
+        border-color: #FFFFFF;
+        border-radius:5px;
+        text-decoration:underline;
       }
       a {
         /*-webkit-text-stroke-width: 0.1px;
         -webkit-text-stroke-color: white;*/
       }
-      thead {
-        background-color:#008F4C;
-        color:white;
-      }
-      .dropdown-item:hover {
-        background-color:#008f4c21
-      }
+      
     </style>
   </head>
   
@@ -51,30 +54,25 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item {{'active' if page == 'Burling' else '' }}">
-        <a class="nav-link" href="/burling">Burling</a>
-      </li>
-      <li class = "nav-item {{'active' if page == 'Events' else ''}}">
-        <a class = "nav-link" href="/events">Events</a>
-      </li>
-      <li class = "nav-item {{'active' if page == 'Entries' else ''}}">
-        <a style="margin-right:7.5px" class = "nav-link" href="/entries">Entries</a>
+      <li class="nav-item mr-3 {{'active' if page == 'Houses' else '' }}">
+        <a class="nav-link" href="/houses">Houses</a>
       </li>
       <li>
         <div class="btn-group mr-2">
-          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Submit
+          <a type="button" class="btn btn-BG" href="/burling">Burling</a>
+          <button type="button" class="btn btn-BG dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
           </button>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="/burling/15m">15 Male</a>
-            <a class="dropdown-item" href="/burling/16m">16 Male</a>
-            <a class="dropdown-item" href="/burling/17m">17 Male</a>
-            <a class="dropdown-item" href="/burling/openm">Open Male</a>
+            <a class="dropdown-item" href="/burling/15m">15M</a>
+            <a class="dropdown-item" href="/burling/16m">16M</a>
+            <a class="dropdown-item" href="/burling/17m">17M</a>
+            <a class="dropdown-item" href="/burling/openm">OpenM</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/burling/15f">15 Female</a>
-            <a class="dropdown-item" href="/burling/16f">16 Female</a>
-            <a class="dropdown-item" href="/burling/17f">17 Female</a>
-            <a class="dropdown-item" href="/burling/openf">Open Female</a>
+            <a class="dropdown-item" href="/burling/15f">15F</a>
+            <a class="dropdown-item" href="/burling/16f">16F</a>
+            <a class="dropdown-item" href="/burling/17f">17F</a>
+            <a class="dropdown-item" href="/burling/openf">OpenF</a>
           </div>
         </div>
       </li>
@@ -94,7 +92,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
-
 
 
 

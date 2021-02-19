@@ -2,8 +2,8 @@
 
 <p>Here are all the students entered in events, with their event listed.</p>
 
-<table class="table table-hover table-bordered table-sm table-dark">
-  <thead class="thead-light">
+<table class="table table-hover table-bordered table-sm ">
+  <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">First Name</th>
@@ -19,14 +19,14 @@
   <tbody>
 %for row in rows:  
     <tr>
-      <th scope="row">{{row[0]}}</th>
+      <th scope="row">{{row[1]}}</th>
       <td>{{row[2]}}</td>
       <td>{{row[3]}}</td>
       <td>{{row[4]}}</td>
       <td>{{row[5]}}</td>
       <td>{{row[6]}}</td>
-      <td>{{row[7]}}</td>
       <td>{{row[8]}}</td>
+      <td>{{row[9]}}</td>
       <td>
       <form action='/entries/delete' method='post'>
       <input type="hidden" name="id" value="{{row[0]}}" />
