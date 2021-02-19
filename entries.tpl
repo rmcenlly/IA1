@@ -2,8 +2,8 @@
 
 <p>Here are all the students entered in events, with their event listed.</p>
 
-<table class="table table-hover table-bordered table-sm ">
-  <thead>
+<table class="table table-hover table-bordered table-sm table-dark">
+  <thead class="thead-light">
     <tr>
       <th scope="col">#</th>
       <th scope="col">First Name</th>

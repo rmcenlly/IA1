@@ -17,7 +17,3 @@ The houses page has a range of functions which are:
     <li>Viewing all students in a house sorted by age</li>
     <li>Entering a student into an event sorted by age and gender</li>
 </p>
-
-
-
-
